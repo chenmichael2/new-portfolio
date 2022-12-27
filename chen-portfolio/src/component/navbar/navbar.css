@@ -1,0 +1,10 @@
+.navbar {
+    height: 80px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    list-style: none;
+}
