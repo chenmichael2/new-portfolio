@@ -9,7 +9,6 @@ class NavBar extends Component {
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>
                 <div className="nav-right">
                     <ul className="menu">
                         <li>About</li>

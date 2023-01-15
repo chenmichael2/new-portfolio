@@ -1,10 +1,17 @@
 .navbar {
-    height: 80px;
+    height: 64px;
     background-color: aliceblue;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
+}
+
+.nav-left, .nav-right {
+    align-self: center;
 }
 
 .menu {
     list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
 }
