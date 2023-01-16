@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "../../public/MC-Logo.svg";
 import Brand from "./brand/brand";
 import "./navbar.css";
 

@@ -7,15 +7,6 @@
     font-family: 'Vilane';
 }
 
-.logo-img {
-    height: 50px;
-    width: 50px;
-}
-
-#LogoC, #LogoM {
-    transition: all 1s ease;
-}
-
 .nav-space {
     width: 33vw;
 }

@@ -1,0 +1,13 @@
+#LogoC, #LogoM {
+    transition: all 0.75s ease;
+}
+
+svg:hover #LogoC {
+    transform-origin: center;
+    transform: scale(1.1);
+}
+
+svg:hover #LogoM {
+    transform-origin: center;
+    transform: scale(0.9)
+}
