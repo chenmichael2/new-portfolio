@@ -1,18 +1,17 @@
 import React, { Component } from "react";
+import logo from "../../ChenLogo.svg";
 import "./navbar.css";
 
 class NavBar extends Component {
     render() {
         return (
             <nav className="navbar">
-                <div className="nav-left">brand</div>
-                <span></span>
-                <span></span>
-                <span></span>
+                <div className="nav-left"><a href="/"><img src={logo} className="logo-img"/></a></div>
+                <span className="nav-space"></span>
                 <div className="nav-right">
                     <ul className="menu">
-                        <li>About</li>
-                        <li>Resume</li>
+                        <li className="menu-item"><a href="/">About</a></li>
+                        <li className="menu-item"><a href="/">Resume</a></li>
                     </ul>
                 </div>
                 
