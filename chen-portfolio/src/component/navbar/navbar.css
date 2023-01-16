@@ -8,8 +8,12 @@
 }
 
 .logo-img {
-    height: 64px;
-    width: 64px;
+    height: 50px;
+    width: 50px;
+}
+
+#LogoC, #LogoM {
+    transition: all 1s ease;
 }
 
 .nav-space {

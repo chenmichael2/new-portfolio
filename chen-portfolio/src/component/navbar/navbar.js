@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import logo from "../../ChenLogo.svg";
+import logo from "../../public/MC-Logo.svg";
+import Brand from "./brand/brand";
 import "./navbar.css";
 
 class NavBar extends Component {
     render() {
         return (
             <nav className="navbar">
-                <div className="nav-left"><a href="/"><img src={logo} className="logo-img"/></a></div>
+                <div className="nav-left"><a href="/"><Brand></Brand></a></div>
                 <span className="nav-space"></span>
                 <div className="nav-right">
                     <ul className="menu">
