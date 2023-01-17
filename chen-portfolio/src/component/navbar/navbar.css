@@ -1,6 +1,5 @@
 .navbar {
     height: 64px;
-    background-color: aliceblue;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;

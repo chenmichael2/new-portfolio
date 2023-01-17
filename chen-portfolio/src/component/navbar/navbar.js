@@ -3,6 +3,7 @@ import Brand from "./brand/brand";
 import "./navbar.css";
 
 class NavBar extends Component {
+
     render() {
         return (
             <nav className="navbar">
