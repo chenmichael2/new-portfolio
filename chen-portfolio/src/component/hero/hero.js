@@ -1,20 +1,34 @@
-import React, { Component } from "react";
+import React, { useState, useEffect } from "react";
 import "./hero.css";
 
-class Hero extends Component {
-    componentDidMount () {
-        console.log("hello");
-        console.log("hello 2");
-    }
+function Hero() {
+    let [greeting, setGreeting] = useState('');
 
-    render() {
-        return(
-            <section className="hero-section">
-                <div>
-                    <h1>Good {}, My name is Michael Chen</h1>
-                </div>
-            </section>
-        )
+    useEffect(() => {
+        getGreeting();
+        setInterval(getGreeting, 10000);
+        
+    }, [])
+
+    return(
+        <section className="hero-section">
+            <div>
+                <h1>Good { greeting }, My name is Michael Chen</h1>
+            </div>
+        </section>
+    )
+
+    function getGreeting() {
+        let d = new Date();
+        let hr = d.getHours();
+        console.log(d.getHours());
+        if (hr < 12) {
+            setGreeting("Morning");
+        } else if (hr < 18) {
+            setGreeting("Afternoon");
+        } else {
+            setGreeting("Evening");
+        };
     }
 };
 
