@@ -1,13 +1,12 @@
-#LogoC, #LogoM {
-    transition: all 0.75s ease;
+svg {
+    fill: none;
+    height: 40px;
+    position: relative;
+}
+path {
+    fill: blue;
 }
 
-svg:hover #LogoC {
-    transform-origin: center;
-    transform: scale(1.1);
-}
-
-svg:hover #LogoM {
-    transform-origin: center;
-    transform: scale(0.9)
+svg:hover #R1 {
+    height: 1px;
 }
