@@ -3,10 +3,20 @@ svg {
     height: 40px;
     position: relative;
 }
-path {
-    fill: blue;
+
+svg:hover path#E1 {
+    animation-name: logo-hover;
+    animation-timing-function: ease;
+    animation-duration: 2s;
 }
 
-svg:hover #R1 {
-    height: 1px;
+@keyframes logo-hover {
+    0% {
+        transform: translateX(0);
+        
+        
+    }
+    100% {
+        transform: translateX(30px);
+    }
 }
